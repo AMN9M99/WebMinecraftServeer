@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #f5f5f5;
+  --bag-color: #f5f5f5;
   --text-color: #6c757d;
   --accent-color: #ffd333;
   --constrast-color: #3d464d;
@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 img {
   max-width: 100%;
@@ -54,4 +54,124 @@ img {
 
 .card-equal-height .card-text {
   flex: 1;
+}
+.cards-margin {
+  margin-top: 100px;
+}
+.cards-margin {
+  justify-content: center;
+}
+.wrapper {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 150, 209, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+.navbar-background {
+  background: grey;
+}
+
+/* Emeralds */
+.emeralds a.see-all {
+  display: inline-block;
+  width: 100px;
+  height: 50x;
+  font-size: 35px;
+  border-radius: 10px;
+  background: #ffb833;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+.emeralds {
+  display: flex;
+  flex-direction: column;
+}
+.emeralds-backround {
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.emeralds h3.Shop-name {
+  color: #fff;
+  font-size: 50px;
+}
+.emeralds a.see-all:hover {
+  background-color: #ff3333;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.emeralds .emeralds-blocks {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px 0;
+}
+.emeralds .emeralds-blocks span {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+.emeralds .emeralds-blocks button {
+  display: block;
+  border-radius: 5px;
+  background: blue;
+  color: #ccc;
+  width: 50px;
+  height: 40px;
+  margin: 10px auto;
+}
+/*============================================================= footer ================================================================================================== */
+header .logo,
+footer .blocks .logo {
+  text-transform: uppercase;
+  font-size: 29px;
+  font-weight: 800;
+  color: #fff;
+  display: inline-block;
+}
+
+footer {
+  background: #000;
+  padding: 50px 0;
+}
+
+footer .blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .blocks p {
+  width: 300px;
+  margin: 15px 0;
+}
+
+footer .blocks h4 {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+footer .blocks ul {
+  list-style: none;
+}
+
+footer .blocks ul li {
+  margin-top: 7px;
+  opacity: 0.8;
+}
+
+footer hr {
+  margin: 30px 0;
+  border: 0;
+  height: 0.6px;
+  background: #ccc;
+}
+
+footer > p {
+  text-align: center;
 }
